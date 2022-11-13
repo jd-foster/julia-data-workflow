@@ -1,44 +1,10 @@
-# FIXME Lesson title
+# Data-intensive research workflows in Julia
 
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
+[![Lesson](https://img.shields.io/badge/LESSON-pre--alpha-brightgreen)](https://carpentries-incubator.github.io/julia-data-workflow/)
 
-**Thanks for contributing to The Carpentries Incubator!**
-This repository provides a blank starting point for lessons to be developed here.
+_Learn how to use Julia to enable your data-intensive scientific research._
 
-A member of the [Carpentries Curriculum Team](https://carpentries.org/team/)
-will work with you to get your lesson listed on the
-[Community Developed Lessons page][community-lessons]
-and make sure you have everything you need to begin developing your new lesson.
-
-## What to do next
-
-Before you begin developing your new lesson,
-here are a few things we recommend you do:
-
-* [ ] Decide on a title for your new lesson!
-  Once you've chosen a new title, you can set the value for `lesson_title`
-  in [`_config.yml`](_config.yml)
-* [ ] Add the URL to your built lesson pages to the repository description\*
-* [ ] Fill in the fields marked `FIXME` in:
-  * this README
-  * [`_config.yml`](_config.yml)
-* [ ] If you're going to be developing lesson material for the first time
-  according to our design principles,
-  consider reading the [Carpentries Curriculum Development Handbook][cdh]
-* [ ] Consult the [Lesson Example][lesson-example] website to find out more about
-  working with the lesson template
-* [ ] If you are planning to write your lesson in RMarkdown,
-  [create a `main` branch and set this as the default branch in your repository settings][change-default-branch]
-* [ ] Update this README with relevant information about your lesson
-  and delete this section
-
-
-\* To set the URL on GitHub, click the gear wheel button next to **About**
-on the right of the repository landing page.
-The lesson URL structure is **https://carpentries-incubator.github.io/<repository-slug\>**:
-a repository at https://github.com/carpentries-incubator/new-lesson/ will have pages at
-the lesson URL https://carpentries-incubator.github.io/new-lesson/.
-
+It can be a challenge to know where to start when developing a scalable and reproducible workflow for your data-intensive computations. The [Julia][julia] programming language is notable for enabling researchers and analysts in diverse domains to get a handle on this challenge. Use this lesson to learn how to start implementing effective scientific computing workflows using Julia.
 
 ## Contributing
 
@@ -49,7 +15,7 @@ We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTR
 the [more detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even
 how to write new episodes.
 
-Please see the current list of [issues][FIXME] for ideas for contributing to this
+Please see the current list of [issues][issues] for ideas for contributing to this
 repository. For making your contribution, we use the GitHub flow, which is
 nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git
 by Scott Chacon.
@@ -60,9 +26,7 @@ Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%
 
 Current maintainers of this lesson are
 
-* FIXME
-* FIXME
-* FIXME
+* James Foster: ([@jd-foster](https://github.com/jd-foster))
 
 
 ## Authors
@@ -77,3 +41,5 @@ To cite this lesson, please consult with [CITATION](CITATION)
 [change-default-branch]: https://docs.github.com/en/github/administering-a-repository/changing-the-default-branch
 [community-lessons]: https://carpentries.org/community-lessons
 [lesson-example]: https://carpentries.github.io/lesson-example
+[issues]: https://github.com/carpentries-incubator/julia-data-workflow/issues
+[julia]: https://julialang.org/
